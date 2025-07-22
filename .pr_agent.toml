@@ -1,0 +1,4 @@
+[pr_code_suggestions]
+num_code_suggestions_per_chunk = 50
+max_number_of_calls = 20
+auto_extended_mode = true
