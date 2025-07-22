@@ -1,0 +1,159 @@
+# Ignore system and IDE-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Ignore user-specific and IDE configuration files
+*.rsuser
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+.idea/
+*.sln.iml
+.vs/
+
+# Ignore build results and intermediate files
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore Visual Studio and Xamarin generated files
+.vs/
+Generated\ Files/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+mono_crash.*
+
+# Ignore packaging and publishing output
+.publish/
+[Pp]ackages/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+csx/
+*.build.csdef
+
+# Ignore Azure-related files
+ecf/
+rcf/
+PublishScripts/
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Ignore temporary and lock files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.tye/
+ScaffoldingReadMe.txt
+
+# Ignore logs and temporary files
+*.log
+*.tlog
+*.pidb
+*.svclog
+
+# Ignore ReSharper, TeamCity, and other JetBrains tools
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_TeamCity*
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+*.mm.*
+AutoTest.Net/
+
+# Ignore Azure local development files
+.containers/
+azurite/
+
+# Ignore other tool-generated files
+ntvs_analysis.dat
+node_modules/
+ntvs_analysis.dat
+.sass-cache/
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+.paket/paket.exe
+paket-files/
+.fake/
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+.ntvs_analysis.dat
+.history/
+.localhistory/
+.vshistory/
+healthchecksdb
+MigrationBackup/
+.ionide/
+FodyWeavers.xsd
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Ignore Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+/extract_cs_files.sh
+.cursor/

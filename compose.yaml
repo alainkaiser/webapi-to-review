@@ -1,0 +1,7 @@
+﻿services:
+  sitewerk.webapi:
+    image: sitewerk.webapi
+    build:
+      context: .
+      dockerfile: Sitewerk.WebApi/Dockerfile
+
